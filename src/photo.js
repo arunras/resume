@@ -6,7 +6,7 @@ class Photo extends Component{
        return(
             <Col lg="4">
                 <Card>
-                    <Button color="info" size="lg" block>Photo</Button> 
+                    <Button color="primary" size="lg" block>Photo</Button> 
                 </Card>
             </Col>
        ); 

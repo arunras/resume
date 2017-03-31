@@ -8,13 +8,17 @@ import Info from './info';
 import Photo from './photo';
 import Education from './education';
 import Experience from './experience';
+import Skill from './skill';
+import Project from './project';
+import Strength from './strength';
+import Language from './language';
 
 
 
 class App extends Component {
     render() {
         return (
-            <Container className="p-5 bg-faded">
+            <Container className="p-5">
                 <Row id="resume-header">
                     <Info /> 
                     <Photo />
@@ -27,7 +31,10 @@ class App extends Component {
                     </Col>
                     
                     <Col lg="4">
-                        RIGHT
+                        <Skill />
+                        <Project />
+                        <Strength />
+                        <Language />
                     </Col>
                 </Row>
             </Container>
