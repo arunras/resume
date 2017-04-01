@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
-import { Col, Button, Card} from 'reactstrap';
-
+import { Col, Card, CardText} from 'reactstrap';
+import logo from './logo.svg';
 
 class Photo extends Component{
     render() {
        return(
-            <Col lg="4">
-                <Card>
-                    <Button color="primary" size="lg" block>Photo</Button> 
+            <Col>
+                <Card className="border-0">
+                    <div className="App">
+                        <div className="App-header">
+                            <img src={logo} className="App-logo" alt="logo" />
+                            <h5>Coding...</h5>
+                        </div>
+                        <CardText className="philosophy">Never Give Up!</CardText>
+                    </div>
                 </Card>
             </Col>
        ); 

@@ -16,15 +16,13 @@ class Experience extends Component{
                 <Card className="info_content border-0">
                     <CardBlock> 
                         <CardText className="resume-major">Electronic Technician</CardText>
+                        <CardText className="org-name">IPG Photonic</CardText>
                         <Row>
-                            <Col lg="5">
-                                <CardText className="org-name">IPG Photonic</CardText>
-                            </Col>
-                            <Col lg="4">
-                                <CardText>Aug 2013 – Sep 2014</CardText>
-                            </Col>
                             <Col lg="3">
-                                <CardText>Oxford, MA</CardText>
+                                <CardText className="timeline">Aug 2013 – Sep 2014</CardText>
+                            </Col>
+                            <Col lg="9">
+                                <CardText className="timeline">Oxford, MA</CardText>
                             </Col>
                         </Row>
                         <CardText>
@@ -43,15 +41,13 @@ class Experience extends Component{
                 <Card className="info_content border-0">
                     <CardBlock> 
                         <CardText className="resume-major">Computer Lab Assistant</CardText>
+                        <CardText className="org-name">Mahidol University</CardText>
                         <Row>
-                            <Col lg="5">
-                                <CardText className="org-name">Mahidol University</CardText>
-                            </Col>
-                            <Col lg="4">
-                                <CardText>Jan – Mar 2013</CardText>
-                            </Col>
                             <Col lg="3">
-                                <CardText>Bangkok, Thailand</CardText>
+                                <CardText className="timeline">Jan – Mar 2013</CardText>
+                            </Col>
+                            <Col lg="9">
+                                <CardText className="timeline">Bangkok, Thailand</CardText>
                             </Col>
                         </Row>
                         <CardText>
@@ -69,15 +65,13 @@ class Experience extends Component{
                 <Card className="info_content border-0">
                     <CardBlock> 
                         <CardText className="resume-major">Web Developer</CardText>
+                        <CardText className="org-name">CAMITSS</CardText>
                         <Row>
-                            <Col lg="5">
-                                <CardText className="org-name">CAMITSS</CardText>
-                            </Col>
-                            <Col lg="4">
-                                <CardText>Jan 2011 – Dec 2012</CardText>
-                            </Col>
                             <Col lg="3">
-                                <CardText>Cambodia</CardText>
+                                <CardText className="timeline">Jan 2011 – Dec 2012</CardText>
+                            </Col>
+                            <Col lg="9">
+                                <CardText className="timeline">Phnom Penh, Cambodia</CardText>
                             </Col>
                         </Row>
                         <CardText>

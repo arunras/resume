@@ -15,31 +15,13 @@ class Education extends Component{
                 <Card className="info_content border-0">
                     <CardBlock> 
                         <CardText className="resume-major">M.S. in Computer Science</CardText>
-                        <Row>
-                            <Col lg="5">
-                                <CardText className="org-name">City College of New York</CardText>
-                            </Col>
-                            <Col lg="4">
-                                <CardText className="duration">Jan 2015 - May 2017</CardText>
-                            </Col>
-                            <Col lg="3">
-                                <CardText>New York, USA</CardText>
-                            </Col>
-                        </Row>
+                        <CardText className="org-name">The City College of New York</CardText>
+                        <CardText className="timeline">2015 - 2017</CardText>
                     </CardBlock>
                     <CardBlock> 
                         <CardText className="resume-major">B.S. in Computer Science</CardText>
-                        <Row>
-                            <Col lg="5">
-                                <CardText className="org-name">Royal University of Phnom Penh</CardText>
-                            </Col>
-                            <Col lg="4">
-                                <CardText>Oct 2007 - Jun 2011</CardText>
-                            </Col>
-                            <Col lg="3">
-                                <CardText>Cambodia</CardText>
-                            </Col>
-                        </Row>
+                        <CardText className="org-name">Royal University of Phnom Penh</CardText>
+                        <CardText className="timeline">2007 - 2011</CardText>
                     </CardBlock>
                 </Card>
             </Card>

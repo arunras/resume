@@ -1,5 +1,9 @@
 @import "./variable.scss";
 
+a:hover{
+    text-decoration: none !important;
+}
+
 .App {
   text-align: center;
 }
@@ -44,51 +48,76 @@ hr.subject_rule{
     }
 
     .card-block{
-        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        //border: 1px solid #000;
+    }
+
+    .resume-major{
+        color: $careerColor;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .org-name{
+        color: $orgColor;
+        font-size: 16px;
+        font-weight: 500;
     }
 
     .timeline{
-        color: #000F00;
+        color: $dateColor;
+        font-size: 12px;
+    }
+    
+    .skill-title{
+        color: $careerColor;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .skill-subtitle{
+        color: $toolColor;
+        padding-left: 5px !important;
+        margin-top: 5px !important;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .skill{
+        border: 1px solid #E8E8E8;
+        padding: 2px 4px;
+        margin: 5px;
+        display: inline-block;
+
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .project{
+        border: 1px solid #E8E8E8;
+        padding: 2px 4px;
+        margin: 5px;
+
+        font-size: 14px;
+        font-weight: 700;
     }
 }
 
-
-.resume-major{
-    color: #000;
+.philosophy{
+    color: $careerColor;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.org-name{
-    color: $darkBlue;
-    font-weight: 500;
-}
 
 .card-text{
     margin: 0;
     padding: 0;
 }
 
-.skill{
-    border: 1px solid #E8E8E8;
-    padding: 2px 4px;
-    margin: 5px;
-    display: inline-block;
-
-    font-size: 12px;
-    font-weight: 700;
-    
-}
-
-.project{
-    border: 1px solid #E8E8E8;
-    padding: 2px 4px;
-    margin: 5px;
 
 
-    font-size: 14px;
-    font-weight: 700;
-}
+
 
 
 

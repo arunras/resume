@@ -14,7 +14,7 @@ class Project extends Component {
                 </CardHeader>
                 <Card className="info_content border-0">
                     <CardBlock> 
-                        <CardText className="project"><a href="#">Random-Quote-Machine</a></CardText>
+                        <CardText className="project"><a href="https://arunras.github.io/random-quote-machine/" target="_blank">Random-Quote-Machine</a></CardText>
                         <CardText className="project"><a href="#">Camera Placement</a></CardText>
                         <CardText className="project"><a href="#">K-Server</a></CardText>
                     </CardBlock>
