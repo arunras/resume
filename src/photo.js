@@ -5,17 +5,15 @@ import logo from './logo.svg';
 class Photo extends Component{
     render() {
        return(
-            <Col>
-                <Card className="border-0">
-                    <div className="App">
-                        <div className="App-header">
-                            <img src={logo} className="App-logo" alt="logo" />
-                            <h5>Coding...</h5>
-                        </div>
-                        <CardText className="philosophy">Never Give Up!</CardText>
+            <Card className="border-0">
+                <div className="App">
+                    <div className="App-header">
+                        <img src={logo} className="App-logo" alt="logo" />
+                        <h5>Coding...</h5>
                     </div>
-                </Card>
-            </Col>
+                    <CardText className="philosophy">Never Give Up!</CardText>
+                </div>
+            </Card>
        ); 
     }
 }

@@ -19,17 +19,21 @@ class App extends Component {
         return (
             <Container className="p-5">
                 <Row id="resume-header">
-                    <Info /> 
-                    <Photo />
+                    <Col lg="8" md="8" sm="12" xs="12">
+                        <Info /> 
+                    </Col>
+                    <Col lg="4" md="4" sm="12" xs="12">
+                        <Photo />
+                    </Col>
                 </Row>
                 
                 <Row id="resume-body">
-                    <Col lg="8" md="8" sm="12">
+                    <Col lg="8" md="8" sm="12" xs="12">
                         <Education />
                         <Experience /> 
                     </Col>
                    
-                    <Col lg="4" md="4" sm="12">
+                    <Col lg="4" md="4" sm="12" xs="12">
                         <Skill />
                         <Project />
                         <Strength />
