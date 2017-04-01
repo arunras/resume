@@ -1,55 +1,73 @@
 .App {
-  text-align: center; }
+  text-align: center;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+  height: 80px;
+}
 
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white; }
+  color: white;
+}
 
 .App-intro {
-  font-size: large; }
+  font-size: large;
+}
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   to {
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 
 hr.subject_rule {
   color: #4885ed;
   background-color: #4885ed;
   height: 2px;
-  margin: 1px 0; }
+  margin: 1px 0;
+}
 
 .info_content {
   padding: 5px 0;
   margin-bottom: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 
 .info_content:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
 
 .info_content .card-block {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
+
+.info_content .timeline {
+  color: #000F00;
+}
 
 .resume-major {
   color: #000;
   font-size: 18px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .org-name {
   color: #0000A0;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .card-text {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .skill {
   border: 1px solid #E8E8E8;
@@ -57,11 +75,13 @@ hr.subject_rule {
   margin: 5px;
   display: inline-block;
   font-size: 12px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .project {
   border: 1px solid #E8E8E8;
   padding: 2px 4px;
   margin: 5px;
   font-size: 14px;
-  font-weight: 700; }
+  font-weight: 700;
+}
