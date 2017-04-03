@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 
 import Info from './info';
+import About from './about';
 import Photo from './photo';
 import Education from './education';
 import Experience from './experience';
@@ -21,6 +22,7 @@ class App extends Component {
                 <Row id="resume-header">
                     <Col lg="8" md="8" sm="12" xs="12">
                         <Info /> 
+                        <About />
                     </Col>
                     <Col lg="4" md="4" sm="12" xs="12">
                         <Photo />

@@ -15,7 +15,7 @@ class Experience extends Component{
 
                 <Card className="info_content border-0">
                     <CardBlock> 
-                        <CardText className="resume-major">Electronic Technician</CardText>
+                        <CardText className="resume-major">Software Engineer</CardText>
                         <CardText className="org-name">IPG Photonic</CardText>
                         <Row>
                             <Col lg="3">

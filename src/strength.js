@@ -15,9 +15,13 @@ class Strength extends Component {
                 <Card className="info_content border-0">
                     <CardBlock> 
                         <CardText className="skill">Hard-working(18/24)</CardText>
-                        <CardText className="skill">Pursuasive</CardText>
-                        <CardText className="skill">Algorithms</CardText>
+                        <CardText className="skill">Persuasive</CardText>
+                        <CardText className="skill">Strong responsibility</CardText>
                         <CardText className="skill">Leadership</CardText>
+                        <CardText className="skill">Self-motivated</CardText>
+                        <CardText className="skill">Goal driven</CardText>
+                        <CardText className="skill">Ability to work independently and team</CardText>
+                        <CardText className="skill">Ability to learn new programming languages and concepts quickly</CardText>
                     </CardBlock>
                 </Card>
             </Card>

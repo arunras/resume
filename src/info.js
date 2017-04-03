@@ -16,7 +16,7 @@ class Info extends Component{
                             <CardText><a href="mailto:arunrasx@gmail.com">arunrasx@gmail.com</a></CardText>
                         </Col>
                         <Col lg="4" md="12" sm="12" xs="12">
-                            <CardText><a href="https://arunras.github.io">https://arunras.github.io</a></CardText>
+                            <CardText><a href="https://github.com/arunras">https://github.com/arunras</a></CardText>
                         </Col>
                         <Col lg="4" md="12" sm="12" xs="12">
                             <CardText><a href="#">Brooklyn, NY</a></CardText>

@@ -34,8 +34,10 @@ class Skill extends Component {
                         <CardText className="skill">CSS</CardText>
                         <CardText className="skill">SASS</CardText>
                         <CardText className="skill">ES6+</CardText>
-                        <CardText className="skill">jQuery</CardText>
 
+                        <CardText className="skill-subtitle">Libraries</CardText>
+                        <CardText className="skill">jQuery</CardText>
+            
                         <CardText className="skill-subtitle">Build Tools</CardText>
                         <CardText className="skill">Create-React-App</CardText>
                         <CardText className="skill">Babel</CardText>
@@ -48,7 +50,7 @@ class Skill extends Component {
                     </CardBlock>
                 
                     <CardBlock> 
-                        <CardText className="skill-title">Bank-End</CardText>
+                        <CardText className="skill-title">Back-End</CardText>
                         <CardText className="skill-subtitle">Programming Language</CardText>
                         <CardText className="skill">C/C++</CardText>
                         <CardText className="skill">NodeJS</CardText>
@@ -56,8 +58,8 @@ class Skill extends Component {
                         <CardText className="skill">Python</CardText>
                         <CardText className="skill">PHP</CardText>
 
-                        <CardText className="skill-subtitle">Databases</CardText>
-                        <CardText className="skill">SQL</CardText>
+                        <CardText className="skill-subtitle">Storage</CardText>
+                        <CardText className="skill">MySQL</CardText>
 
                         <CardText className="skill-subtitle">Web Server</CardText>
                         <CardText className="skill">[Apache]</CardText>
@@ -76,7 +78,7 @@ class Skill extends Component {
                         <CardText className="skill">Bitbucket</CardText>
 
                         <CardText className="skill-subtitle">OS</CardText>
-                        <CardText className="skill">Lixux</CardText>
+                        <CardText className="skill">Linux</CardText>
                         <CardText className="skill">macOS</CardText>
                         <CardText className="skill">Windows</CardText>
                     </CardBlock>
