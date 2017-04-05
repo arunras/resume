@@ -25,6 +25,7 @@ class Experience extends Component{
                                 <CardText className="timeline">Oxford, MA</CardText>
                             </Col>
                         </Row>
+                        {/*
                         <CardText>
                             <ul>
                                 <li>Assembled, installed and inspected components, diodes, units, and fiber optics.</li>
@@ -35,12 +36,13 @@ class Experience extends Component{
                                 <li>Soldering.</li>
                             </ul>
                         </CardText>
+                        */}
                     </CardBlock>
                 </Card>
                 
                 <Card className="info_content border-0">
                     <CardBlock> 
-                        <CardText className="resume-major">Computer Lab Assistant</CardText>
+                        <CardText className="resume-major">Web Developer</CardText>
                         <CardText className="org-name">Mahidol University</CardText>
                         <Row>
                             <Col lg="3">
@@ -50,6 +52,7 @@ class Experience extends Component{
                                 <CardText className="timeline">Bangkok, Thailand</CardText>
                             </Col>
                         </Row>
+                        {/*
                         <CardText>
                             <ul>
                                 <li>Provided technical support such as hardware and software for students and professors 
@@ -59,6 +62,7 @@ class Experience extends Component{
                                 <li>Responded to students’ needs regarding quota limitation and payment. </li>
                             </ul>
                         </CardText>
+                        */}
                     </CardBlock>
                 </Card>
 
@@ -74,6 +78,7 @@ class Experience extends Component{
                                 <CardText className="timeline">Phnom Penh, Cambodia</CardText>
                             </Col>
                         </Row>
+                        {/*
                         <CardText>
                             <ul>
                                 <li>Designed, prototyped and developed websites using language scripts.</li>
@@ -82,6 +87,7 @@ class Experience extends Component{
                                 <li>Worked with development teams in Cambodia and Japan.</li>
                             </ul>
                         </CardText>
+                        */}
                     </CardBlock>
                 </Card>
             </Card>
