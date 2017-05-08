@@ -40,29 +40,7 @@ class Experience extends Component{
                     </CardBlock>
                 </Card>
                 
-                <Card className="info_content border-0">
-                    <CardBlock> 
-                        <CardText className="resume-major">Computer Lab Assistant</CardText>
-                        <CardText className="org-name">Mahidol University</CardText>
-                        <Row>
-                            <Col lg="3">
-                                <CardText className="timeline">Jan – Mar 2013</CardText>
-                            </Col>
-                            <Col lg="9">
-                                <CardText className="timeline">Bangkok, Thailand</CardText>
-                            </Col>
-                        </Row>
-                        {
-                        <CardText>
-                            <ul>
-                                <li>Provided technical support such as hardware and software for students and professors.</li>
-                                <li>Maintained laboratory software, test materials and hardware to ensure security.</li>
-                                <li>Responded to queries regarding quota limitation, payment, and printing support.</li>
-                            </ul>
-                        </CardText>
-                        }
-                    </CardBlock>
-                </Card>
+                
 
                 <Card className="info_content border-0">
                     <CardBlock> 
@@ -88,6 +66,30 @@ class Experience extends Component{
                                 <li>Participated in continuous learning of web development methods and UI designing trends.</li>
                                 <li>Worked with development teams in Cambodia and Japan.</li>
                                 <li>Software Stack: PHP, MySQL, HTML, CSS, JavaScript, JQuery, CodeIgniter, WordPress, Social Network’s API, and Google Maps API.</li>
+                            </ul>
+                        </CardText>
+                        }
+                    </CardBlock>
+                </Card>
+                
+                <Card className="info_content border-0">
+                    <CardBlock> 
+                        <CardText className="resume-major">Computer Lab Assistant</CardText>
+                        <CardText className="org-name">Mahidol University</CardText>
+                        <Row>
+                            <Col lg="3">
+                                <CardText className="timeline">Jan – Mar 2013</CardText>
+                            </Col>
+                            <Col lg="9">
+                                <CardText className="timeline">Bangkok, Thailand</CardText>
+                            </Col>
+                        </Row>
+                        {
+                        <CardText>
+                            <ul>
+                                <li>Provided technical support such as hardware and software for students and professors.</li>
+                                <li>Maintained laboratory software, test materials and hardware to ensure security.</li>
+                                <li>Responded to queries regarding quota limitation, payment, and printing support.</li>
                             </ul>
                         </CardText>
                         }
